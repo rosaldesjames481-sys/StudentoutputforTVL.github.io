@@ -1,0 +1,22 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Segoe UI,Arial,sans-serif;background:#f5f7fa;color:#333}
+.container{width:90%;max-width:1200px;margin:auto}
+.header{background:#0a3d62;padding:12px}
+.nav{display:flex;justify-content:space-between;align-items:center}
+.nav-left{display:flex;align-items:center;gap:10px}
+.school-logo{width:40px}
+.site-title{color:#fff;font-weight:600}
+.nav-links{list-style:none;display:flex;gap:20px}
+.nav-links a{color:#fff;text-decoration:none}
+.nav-links a.active,.nav-links a:hover{text-decoration:underline}
+.hero{height:75vh;background:url("../images/hero.jpg") center/cover no-repeat;position:relative}
+.hero-overlay{position:absolute;inset:0;background:rgba(0,0,0,.6)}
+.hero-content{position:relative;color:#fff;top:50%;transform:translateY(-50%);max-width:650px}
+.hero-btn{display:inline-block;margin-top:20px;background:#f6b93b;padding:12px 28px;border-radius:30px;color:#000;text-decoration:none;font-weight:600}
+.outputs{padding:60px 0}
+.section-title{text-align:center;font-size:2rem;color:#0a3d62;margin-bottom:40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+.card{background:#fff;border-radius:12px;padding:20px;box-shadow:0 6px 15px rgba(0,0,0,.1);text-align:center}
+.card img{width:100%;border-radius:8px}
+.page{padding:60px 0}
+.footer{background:#0a3d62;color:#fff;text-align:center;padding:20px;margin-top:40px}
